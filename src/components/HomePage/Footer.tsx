@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import { BORDERS } from './theme';
 
 /**
  * 页脚组件

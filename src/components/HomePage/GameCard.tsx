@@ -2,13 +2,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-
-// 导入主题配置
-import { COLORS, TRANSITIONS, SHADOWS } from './theme';
+import { COLORS } from './theme';
 
 // 游戏卡片接口定义
 interface GameCardProps {
-  id: string;
   title: string;
   description: string;
   thumbnail: string;
@@ -25,7 +22,6 @@ interface GameCardProps {
  * 展示游戏缩略图、标题和基本信息，是首页和分类页的基本展示单元
  */
 const GameCard: React.FC<GameCardProps> = ({
-  id,
   title,
   description,
   thumbnail,
