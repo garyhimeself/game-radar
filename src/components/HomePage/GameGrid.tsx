@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import GameCard from './GameCard';
 import { SPACING } from './theme';
