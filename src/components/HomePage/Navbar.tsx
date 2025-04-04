@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { COLORS, SHADOWS } from './theme';
+import { SHADOWS } from './theme';
 
 // 分类接口
 interface Category {
